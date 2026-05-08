@@ -1,10 +1,11 @@
 🔐 Crypto Hash Function in Cybersecurity
+
 📖 Overview
 The Crypto Hash Function in Cybersecurity project is a professional educational application designed to demonstrate the fundamentals of modern cryptography and cybersecurity concepts.
-The system allows users to generate secure cryptographic hashes, verify data integrity, analyze text, create HMAC values, and apply encryption transformations before hashing.
-This project provides hands-on experience with widely used cybersecurity techniques and helps users understand how hashing algorithms protect sensitive information in real-world systems.
+The system allows users to generate secure cryptographic hashes, verify data integrity, analyze text, create HMAC values, and apply encryption transformations before hashing.This project provides hands-on experience with widely used cybersecurity techniques and helps users understand how hashing algorithms protect sensitive information in real-world systems.
 
 ✨ Features
+
 👤 User Authentication
 
 
@@ -19,6 +20,7 @@ Session-based authentication
 
 
 🔑 Hash Generation
+
 Generate hashes directly from plain text using:
 
 
@@ -42,6 +44,7 @@ SHA3-512
 
 
 🔒 Hash with Encryption
+
 Apply encryption or transformation methods before hashing:
 
 
@@ -65,6 +68,7 @@ Base64 Encoding
 
 
 📊 Text Analysis
+
 Analyze text and display:
 
 
@@ -91,6 +95,7 @@ Repeated characters
 
 
 🛡️ HMAC Generator
+
 Generate secure HMAC values using:
 
 
