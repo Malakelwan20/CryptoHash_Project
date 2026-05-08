@@ -1,0 +1,14 @@
+[
+    {
+        "fullname": "mariam ehab",
+        "username": "mariouma",
+        "salt": "8daff9c77aa88d5910426acd863b2e15",
+        "password_hash": "a01c9558a3c74c867626509a01b1701588278d8e4a35104c3732d20098645660"
+    },
+    {
+        "fullname": "ehab",
+        "username": "ehab22",
+        "salt": "3453549fea3ff6321a03c45d3551549e",
+        "password_hash": "eba400906685b35ddf31bd95d92e0da6335697729e2931ccf102466207b887df"
+    }
+]

@@ -1,0 +1,73 @@
+START
+Open CryptoHash Analyzer
+Show Home Page
+User chooses Login, Register, or Demo User
+
+IF Register THEN
+    Read username, email, password, confirm password
+    Validate username length and allowed characters
+    Validate email format
+    Validate password length
+    Check password confirmation
+    Check username is unique
+    Hash password with salt
+    Save user information in data/users.json
+ENDIF
+
+IF Login THEN
+    Read username and password
+    Load user information file
+    Hash entered password with saved salt
+    Compare with stored password hash
+    IF correct THEN open Main Menu
+    ELSE show error
+ENDIF
+
+Main Menu Options:
+1. Hash With Encryption
+2. Hash Without Encryption
+3. Message Authentication Code HMAC
+4. Verify Hash / Message Integrity
+5. File Hashing
+6. Logout
+
+Hash Without Encryption:
+    Read message
+    Select hash algorithm
+    Generate hash value
+    Analyze characters, letters, words, and hexadecimal values
+    Display hash and analysis
+
+Hash With Encryption:
+    Read message
+    Select encryption method
+    Read key or shift when needed
+    Encrypt or transform message
+    Select hash algorithm
+    Generate hash value from processed message
+    Analyze original message
+    Display encrypted preview, hash, and analysis
+
+HMAC:
+    Read message
+    Read secret key
+    Select HMAC algorithm
+    Generate HMAC value
+    Display HMAC result
+
+Verify Hash:
+    Read message
+    Read received hash
+    Select hash algorithm
+    Generate new hash from message
+    Compare computed hash with received hash
+    IF equal THEN display MATCH and integrity preserved
+    ELSE display MISMATCH and message may have changed
+
+File Hashing:
+    Choose file
+    Read file in binary mode
+    Generate SHA-256, SHA-512, and SHA3-256
+    Display file hash values
+
+END
